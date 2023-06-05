@@ -1,0 +1,237 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Page</title>
+    <link rel="icon" href="images/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="stylesheet.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Comic+Neue&family=Courgette&family=Open+Sans:wght@300;400&family=Roboto:wght@300&display=swap');
+        /* main */
+        h1 {
+            color: #ff0000;
+        }
+        li {
+            font-family: Arial, sans-serif;
+        }
+        color {
+            color: #00bfff;
+        }
+        .list{
+        float: right;
+        padding-right: 200px;
+        /* padding-top: 10px; */
+        /* font-size: x-large; */
+        font-size: 20px;
+        }
+        .r{
+            padding-bottom: 100px;
+        }
+        .buttom{
+            background-color:#ffd900;
+            font-size: medium;
+            cursor: pointer;
+            font-weight: bold;
+            margin-left: 150px;
+            margin-top: 18px;
+            margin-bottom: 50px;
+            padding-left: 20px;
+            padding-right: 20px;
+            padding: 7px 15px;
+        }
+        .photo1{
+            position: absolute;
+            padding-left:230px;
+            width: 25%;
+        }
+        .photo2{
+            position: absolute;
+            width: 25%;
+            margin-top: 50px;
+            margin-left: 180px;
+            /* margin:50px 0px -100px 230px; */
+        }
+        .space{
+            padding: relative;
+            float: left;
+        }
+
+        /*table css*/
+        td {
+            border-style: solid;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 30px 60px 15px;
+        }
+        th {
+            border-style: none;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 30px 60px 15px; 
+        }
+        table {
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: 2%;
+            padding-bottom: 5%;
+            margin-top: 35%;
+            border: 2px solid #000000;
+            border-collapse: collapse;  
+        }
+        .thead {
+            background-color: #000000;
+            color: #ffffff;
+        }
+    </style>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.3/jquery.validate.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('.n_form').validate();
+        });
+    </script>
+</head>
+
+
+<body>
+    <header class="header1">
+
+        <div class="container">
+            <div class="logo">
+                <a href="index.html"> <img src="images/logo2.png" alt="Logo"> </a>
+            </div>
+            <nav>
+                <a href="index.html">HOME</a>
+                <a href="aboutus.html">ABOUT US</a>
+                <a href="Courses.html">COURSES</a>
+                <a href="Guide.html">GUIDE</a>
+                <a class="button" href="SignUp_Login.html">LOGIN</a>
+            </nav>
+        </div>
+        
+    </header>
+    <main>
+        <div class="r">
+          <img src="images/registration_students.jpg" height="500px" width="100%" alt="ali" class="r">
+          <div class="list">
+           <h1>PERSONAL INFORMATION</h1>
+            <ul><li><strong>First Name : &nbsp; <color>ALex</color></strong></li> <br>
+            <li><strong>Middle Name : &nbsp; <color>Johns</color></strong></li> <br>
+            <li><strong>Last Name : &nbsp; <color>Smith</color></strong></li> <br>
+            <li><strong>Birthday :  &nbsp; <color>May 12,2002</color></strong></li> <br>
+            <li><strong>Gender : &nbsp; <color>Male</color></strong></li> <br>
+            <li><strong>Language : &nbsp; <color>English</color></strong></li> <br>
+            <li><strong>Email : &nbsp; <color>AlexSmith2002@outlook.com</color></strong></li></ul>
+            <input type="submit" value="Learn more" class="buttom">
+        </div>
+
+        <div class="space">
+        <div class="photo1"><img src="images/pro.jpg" height="350" width="350"></div>
+        <div class="photo2"><img src="images/sample-photo (1).jpg" height="350" width="350"></div>
+        </div>
+
+       
+        <div>
+            <table border="solid"><caption><h1>SCHEDULE / FALL 2021-2022</h1></caption>
+            <colgroup>
+                <col style="background-color: #C5E0DC">
+            </colgroup>
+            <thead class="thead">
+                <tr>
+                    <th>Course Name</th>
+                    <th>Section</t>
+                    <th>Instructor</th>
+                    <th>Schedule</th>
+                    <th>Status</th>
+                    <th>Grade</th>
+                </tr>
+            </thead> 
+                <tr>
+                    <td>Web Development</td>
+                    <td>A</td>
+                    <td>Emma bill hale</td>  
+                    <td>Tuesday:08:00->09:15<br><br>Thursday:08:00->9:15</td>
+                    <td>Registered</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Operating System</td>
+                    <td>A</td>
+                    <td>Lukas Daniel Watson</td>
+                    <td>Monday:08:00->9:15<br><br>Wednesday:08:00->9:15</td>
+                    <td>Registered</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>English Comunication Skills</td>
+                    <td>C</td>
+                    <td>Lucy Kari Horton</td>
+                    <td>Tuesday:11:00->12:15<br><br>Thursday:11:00->12:15</td>
+                    <td>Registered</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Bussiness Software Aplictation</td>
+                    <td>B</td>
+                    <td>Paul Charles Bale</td>
+                    <td>Friday:12:00->2:00<br><br></td>
+                    <td>Passed</td>
+                    <td>A</td>
+                </tr>
+            </table>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="content">
+                <div class="content_div" id="about">
+                    <a href="index.html">
+                        <img src="images/logo.png" alt="Logo" height="60" width="60"> 
+                    </a>
+                    <a href="index.html" class="logo">
+                        LEVEL UP
+                    </a>
+                    <p>
+                        Level Up is an online tutoring website that for the purpose of providing free and 
+                        high quality courses for everyone.</p>
+                        <div class="contact">
+                            <div>
+                                <img src="images/4.png" width="17" height="17" alt="icon">
+                                &nbsp; (+961)01-234567
+                            </div>
+                            <div>
+                                <img src="images/7.png" width="17" height="17" alt="icon">
+                                &nbsp; info@levelup.com
+                            </div>
+                        </div>
+                        <div class="socials">
+                            <a href="https://facebook.com/">
+                                <img src="images/facebook-3-16.png" alt="icon">
+                            </a>
+                            <a href="https://twitter.com/?lang=en">
+                                <img src="images/twitter-3-16.png" alt="icon">
+                            </a>
+                            <a href="https://www.linkedin.com/">
+                                <img src="images/linkedin-6-16.png" alt="icon">
+                            </a>
+                        </div>
+                </div>
+                <div class="content_div" id="newsletter">
+                    <h2>Subscribe to our newsletter</h2>
+                    <form class="n_form" action="#" method="post">
+                        <input type="email" name="email" class="email" placeholder="Your email address" required="required">
+                        <textarea name="message" class="message" placeholder="Your message"></textarea>
+                        <br>
+                        <input type="submit" value="Subscribe" class="newsletter_btn">
+                    </form>
+                </div>
+            </div>
+            <div class="bottom">
+                Copyrights &copy; 2022 | Level Up Online Tutoring Website 
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
