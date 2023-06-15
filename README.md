@@ -3,6 +3,17 @@ This project represents a front-end design for an online tutoring application. B
 This application provides a platform for teachers to create and manage courses, while allowing students to join these courses .It also includes a student guide page, which aims to educate students about essential skills needed in life to reach success.
 <h1><u>Key Features:</u></h1>
 
+<h5><u>Team members:</u></h4>
+<ul>
+<li>Fatima Dekmak</li>
+<li>Yasmine Fadel</li>
+<li>Dima Moukhader</li>
+<li>Jana Al-Sabeh</li>
+<li>Mohiddeen Al-Barazi</li>
+<li>Ali Termos</li>
+<li>Sarah Fakih</li>
+</ul>
+
 <h5><li>Teacher Course Creation and Management:</li></h5>
   Teachers can easily create and manage their courses within the application. They can organize course materials, set assignments, and monitor student progress.
 
